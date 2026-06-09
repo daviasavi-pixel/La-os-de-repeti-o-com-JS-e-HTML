@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="enquanto.css">
+    <title>Exemplo Faça Enquanto com JS</title>
+</head>
+<body>
+    <button onclick="Perguntar()">Perguntar</button>
+
+    <script>
+        function Perguntar(){
+            let nome
+            let resposta
+
+            do{
+                nome = prompt("Digite seu nome:")
+
+                resposta = prompt("Quer continuar cadastrando?:")
+            }while(resposta == "s")
+            
+        }
+    </script>
+</body>
+</html>
