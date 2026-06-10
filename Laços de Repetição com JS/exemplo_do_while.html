@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="enquanto.css">
     <title>Exemplo Faça Enquanto com JS</title>
 </head>
@@ -15,9 +14,13 @@
             let resposta
 
             do{
+                // Rotina para solicitar dados do cliente
                 nome = prompt("Digite seu nome:")
+                idade = prompt("Informe sua idade:")
+                email = prompt("Digite seu email:")
 
-                resposta = prompt("Quer continuar cadastrando?:")
+                resposta = prompt("Quer continuar cadastrando mais clientes?:")
+
             }while(resposta == "s")
             
         }
